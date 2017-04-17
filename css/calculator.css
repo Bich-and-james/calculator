@@ -28,7 +28,22 @@ h1 {
     width: 95px;
     font-size: 2em;
     border-radius: 8px;
+}
 
+.actionButtons {
+    height: 55px;
+    width: 95px;
+    font-size: 2em;
+    border-radius: 8px;
+    background-color: darkolivegreen;
+}
+
+#clrButton {
+    background-color: white;
+}
+
+#eqsButton {
+    background-color: wheat;
 }
 
 .calcButtons {

@@ -57,7 +57,7 @@
         </tr>
         <tr>
             <td>
-                <button class="buttons2">=</button>
+                <button id="eqsButton" class="buttons2">=</button>
             </td>
         </tr>
     </table>
@@ -80,7 +80,7 @@
         </tr>
         <tr>
             <td>
-                <button class="buttons2">C</button>
+                <button id="clrButton" class="buttons2">C</button>
             </td>
         </tr>
     </table>
@@ -88,43 +88,28 @@
     <table class="calcButtons">
         <tr>
             <td>
-                <button class="buttons2">/</button>
+                <button id="divButton" class="actionButtons">/</button>
             </td>
         </tr>
         <tr>
             <td>
-                <button class="buttons2">*</button>
+                <button id="tmsButton" class="actionButtons">*</button>
             </td>
         </tr>
         <tr>
             <td>
-                <button class="buttons2">-</button>
+                <button id="mnsButton" class="actionButtons">-</button>
             </td>
         </tr>
         <tr>
             <td>
-                <button class="buttons2">+</button>
+                <button id="plsButton" class="actionButtons">+</button>
             </td>
         </tr>
     </table>
 
 </div>
 
-<script>
-    (function () {
-        "use strict";
-
-        var calcButtons = document.getElementsByClassName('buttons');
-
-        function changeSize() {
-
-
-        }
-
-
-    })();
-
-
-</script>
+<script src="js/calculator.js"></script>
 </body>
 </html>
