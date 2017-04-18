@@ -1,53 +1,139 @@
+body {
+    background: #777;
+}
+
+#background {
+    width: 280px;
+    height: 560px;
+    background: darkcyan;
+    margin: 50px auto;
+}
 
 h1 {
     text-align: center;
 }
 
-#calculator {
-    width: 500px;
-    height: 350px;
-    background-color: darkcyan;
-    border-radius: 8px;
-    padding: 0;
+button {
+    border: 0;
+    color: #fff;
 }
 
-.tpScreen {
-    display: inline-block;
-    margin-top: .7em;
-    margin-left: .2em;
-    border-radius: 8px;
-    width: 155px;
-    height: 70px;
-    background-color: wheat;
-    padding: 0;
-    font-size: 2em;
+.mainScreens {
+    border-radius: 4px;
+    display: block;
+    width: 230px;
+    height: 50px;
+    margin: 10px auto;
+    text-align: right;
+    border: 0;
+    background: #3b3535;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 3em;
+    margin-left: 25px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top: 10px;
 }
 
-.buttons2 {
-    height: 55px;
-    width: 95px;
-    font-size: 2em;
-    border-radius: 8px;
+#result:hover {
+    cursor: text;
 }
 
-.actionButtons {
-    height: 55px;
-    width: 95px;
-    font-size: 2em;
-    border-radius: 8px;
-    background-color: darkolivegreen;
+#first-rows {
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
 }
 
-#clrButton {
-    background-color: white;
+.rows {
+    width: 300px;
+    margin-top: 10px;
 }
 
-#eqsButton {
-    background-color: wheat;
+.delete {
+    width: 110px;
+    height: 50px;
+    margin-left: 25px;
+    border-radius: 4px;
 }
 
-.calcButtons {
-    display: inline-block;
-    margin-left: 1em;
-    margin-top: .7em;
+.fall-back {
+    margin-left: 3px !important;
+}
+
+.align {
+    margin-left: 6px !important;
+}
+
+.btn-style {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+.eqn {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+.first-child {
+    margin-left: 25px;
+}
+
+.num-bg {
+    background: #000;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333;
+}
+
+.num-bg:active {
+    box-shadow: inset 0 0 20px #555;
+}
+
+.opera-bg {
+    background: #333;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #555;
+}
+
+.opera-bg:active {
+    box-shadow: inset 0 0 20px #555;
+}
+
+.clr-bg {
+    background: #24b4de;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #399cb9;
+}
+
+.clr-bg:active {
+    box-shadow: inset 0 0 20px #399cb9;
+}
+
+#eqn-bg {
+    background: #17a928;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #1f7a29;
+}
+
+#eqn-bg:active {
+    box-shadow: inset 0 0 20px #1f7a29;
 }

@@ -9,107 +9,45 @@
 
 <h1>Our Calculator</h1>
 
-<div id="calculator">
+<div id="background">
 
-    <div id="topScreen">
-        <div class="tpScreen" id="screen1"></div>
-        <div class="tpScreen" id="screen2"></div>
-        <div class="tpScreen" id="screen3"></div>
+    <div class="mainScreens" id="screen1"></div>
+    <div class="mainScreens" id="screen2"></div>
+    <div class="mainScreens" id="screen3"></div>
+
+    <div id="main">
+        <div id="first-rows">
+            <button class="clr-bg delete" id="clearBtn">C</button>
+            <button value="%" class="btn-style operator opera-bg fall-back">%</button>
+            <button value="+" class="btn-style opera-bg value align operator">+</button>
+        </div>
+        <div class="rows">
+            <button value="7" id="7" class="btn-style num-bg num first-child">7</button>
+            <button value="8" id="8" class="btn-style num-bg num">8</button>
+            <button value="9" id="9" class="btn-style num-bg num">9</button>
+            <button value="-" class="btn-style opera-bg operator">-</button>
+        </div>
+        <div class="rows">
+            <button value="4" id="4" class="btn-style num-bg num first-child">4</button>
+            <button value="5" id="5" class="btn-style num-bg num">5</button>
+            <button value="6" id="6" class="btn-style num-bg num">6</button>
+            <button value="*" class="btn-style opera-bg operator">x</button>
+        </div>
+        <div class="rows">
+            <button value="1" id="1" class="btn-style num-bg num first-child">1</button>
+            <button value="2" id="2" class="btn-style num-bg num">2</button>
+            <button value="3" id="3" class="btn-style num-bg num">3</button>
+            <button value="/" class="btn-style opera-bg operator">/</button>
+        </div>
+        <div class="rows">
+            <button value="0" id="0" class="num-bg zero num delete">0</button>
+            <button value="." class="btn-style num-bg period fall-back">.</button>
+            <button value="=" id="eqn-bg" class="eqn align">=</button>
+        </div>
     </div>
-    <table class="calcButtons">
-        <tr>
-            <td>
-                <button class="buttons2">1</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">4</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">7</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">0</button>
-            </td>
-        </tr>
-    </table>
-
-    <table class="calcButtons">
-        <tr>
-            <td>
-                <button class="buttons2">2</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">5</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">8</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button id="eqsButton" class="buttons2">=</button>
-            </td>
-        </tr>
-    </table>
-
-    <table class="calcButtons">
-        <tr>
-            <td>
-                <button class="buttons2">3</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">6</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="buttons2">9</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button id="clrButton" class="buttons2">C</button>
-            </td>
-        </tr>
-    </table>
-
-    <table class="calcButtons">
-        <tr>
-            <td>
-                <button id="divButton" class="actionButtons">/</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button id="tmsButton" class="actionButtons">*</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button id="mnsButton" class="actionButtons">-</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button id="plsButton" class="actionButtons">+</button>
-            </td>
-        </tr>
-    </table>
-
 </div>
 
 <script src="js/calculator.js"></script>
+
 </body>
 </html>
