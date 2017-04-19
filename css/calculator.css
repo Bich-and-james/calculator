@@ -97,6 +97,7 @@ button {
 
 .num-bg:active {
     box-shadow: inset 0 0 20px #555;
+    background: #17a928;
 }
 
 .opera-bg {
@@ -110,6 +111,7 @@ button {
 
 .opera-bg:active {
     box-shadow: inset 0 0 20px #555;
+    background: darkred;
 }
 
 .clr-bg {
@@ -136,4 +138,16 @@ button {
 
 #eqn-bg:active {
     box-shadow: inset 0 0 20px #1f7a29;
+}
+
+@-webkit-keyframes rumble {
+    0% {-webkit-transform: rotate(0deg);}
+    25% {-webkit-transform: translate(2px, 0px) rotate(-3deg);}
+    50% {-webkit-transform: translate(0px, -2px) rotate(0deg);}
+    75% {-webkit-transform: translate(-2px, 0px) rotate(3deg);}
+    100% {-webkit-transform: translate(0px, 2px) rotate(0deg);}
+}
+
+.rumble, .rumble-hover:hover, .rumble-active:active {
+    -webkit-animation: rumble .0625s infinite linear;
 }
